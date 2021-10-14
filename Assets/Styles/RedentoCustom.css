@@ -1,0 +1,186 @@
+.Width100
+{
+  width:100% !important;
+}
+.NoMaxWidth{
+  max-width:none !important;
+}
+.MarginTop5px{
+  margin-top: 5px !important;
+}
+.MarginTop10px{
+  margin-top: 10px !important;
+}
+.HeaderPadding{
+  padding: 10px 0 !important;
+}
+.MainMenuPadding{
+  padding-top: 20px !important;
+}
+
+.FooterIconWith{
+  width:16px !important;
+}
+.NoMargin{
+  margin:0px !important;
+}
+.FooterFontSize{
+  font-size: 12px !important;
+}
+.FooterItemLineHeight{
+  line-height: 36px !important;
+}
+
+ .footer_box h3 {     
+  font-size: 18px; 
+} 
+.banner-1 {     
+  width: 100%;     
+  margin: 0 auto;     
+  color: #fff;     
+  text-align: center;     
+  margin-top: 150px;     
+  font-weight: bold; 
+} 
+.banner-1 .banner-1-title {     
+  font-size: 46px;     
+  margin-bottom: 30px;
+} 
+.banner-1 .banner-1-dec {     
+  font-size: 32px;     
+  line-height: 1.2; 
+} 
+.banner-1 .banner-btn {     
+  text-align: center;     
+  margin-top: 20px; 
+} 
+.banner-1 .banner-btn a.btn-cus-banner {     
+  border: 0;     
+  background-color: #e11b22;     
+  border-radius: 0;     
+  text-transform: uppercase;     
+  padding: 10px 20px;     
+  font-weight: bold; 
+} 
+.banner-1 .banner-btn a:hover 
+{     
+  color: #fff; 
+} 
+@media only screen and (min-width: 426px) and (max-width: 768px) 
+{     
+  .banner-1 .banner-1-title     
+  {         
+	font-size: 36px;     
+  }     
+  .banner-1 .banner-1-dec     
+  {         
+	font-size: 26px;     
+  } 
+  .footerBottomPadding{
+    padding-bottom: 20px;
+  }
+} 
+@media only screen and (max-width: 426px) 
+{     
+  .banner-1     
+  {         
+	margin-top: 50px;     
+  }     
+  .banner-1 .banner-1-title     
+  {         
+	font-size: 18px;     
+  }     
+  .banner-1 .banner-1-dec     
+  {         
+	font-size: 13px;     
+  } 
+  .footerBottomPadding{
+    padding-bottom: 20px;
+  }
+} 
+
+.promotions {
+  width: 100%;
+  float: left;
+  padding-bottom: 100px;
+}
+.promotions h1 {
+  margin-bottom: 35px;
+}
+.promotions img {
+  width: 100%;
+}
+.promotions .promotions-item {
+  margin-bottom: 10px;
+}
+
+.home-t-b {
+  float: left;
+  width: 100%;
+  margin: 35px 0;
+}
+  .home-talk-item {
+  width: 100%;;
+  padding: 0 15px;
+  float: left;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 36px;
+  }
+  .home-talk-item img {
+  width: 16px;
+  margin-right: 10px;
+  }
+  h3.title-talk {
+  line-height: 1.2;
+  margin: 0;
+  }
+  .btn-talk {
+  color: white;
+  font-size: 14px;
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1;
+  } 
+  .home-talk-items
+  {
+    width: 100%;
+    height: 20px;
+  }
+  .home-talk-item-icon{
+    width: 30px;
+    float: left;
+  }
+  .home-talk-item-icon-details{
+    width: calc(100% - 30px);
+    float: left;
+  }
+  /* iPad */
+  @media only screen and (min-width: 426px) and (max-width: 768px) {
+    .home-talk-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  } /* Mobile */
+  @media only screen and (max-width: 426px) {
+    .home-talk-item {
+      width: 100%;
+      margin: 10px 0;
+      padding: 0 30px;
+    }
+  }
+  
+  .icons .icons-line {
+    margin-bottom: 10px;
+    }
+    .icons img {
+    width: 100%;
+    }
+    .icons .icons-item {
+    margin-bottom: 10px;
+    }

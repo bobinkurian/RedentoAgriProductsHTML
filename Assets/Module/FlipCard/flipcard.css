@@ -1,0 +1,189 @@
+.flip-card {
+width: 100%;
+margin:0 auto;
+perspective: 1000px;
+}
+
+.flip-card-inner {
+position: relative;
+width: inherit;
+height:300px;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: inherit;
+height: inherit;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color: #bbb;
+color: black;
+}
+
+.flip-card-back {
+color: white;
+transform: rotateY(180deg);
+}
+
+.TrendingProductWrapper{
+position:relative;
+width: 100%;  /* 260px */
+height:300px;
+overflow:hidden;
+color:#FFF;
+}
+
+.TrendingProduct-Card
+{
+position:relative;
+overflow:hidden;  
+}
+.TrendingProduct-card-block{
+width:100%;
+height:60px;
+position:absolute;
+top:0px;
+left:0px;
+background: #e11b22;
+z-index:100;
+text-transform: uppercase;
+padding-left: 10px;
+}
+
+.TrendingProduct-card-parallelogram{
+transform: rotate(-10deg);
+}
+.TrendingProduct-parallelogram {
+width: 100%;
+height: 90px;
+transform: skew(70deg);
+background: #e11b22;
+}
+
+.TrendingProduct-card-image
+{
+display:block;
+width:100%;
+height:100%;
+z-index:-10;
+transform:none !important;
+margin-top: -90px;
+}
+
+.TrendingProduct-card-price
+{
+padding: 10px;
+background: #e11b22;
+position:absolute;
+bottom: 10px;
+right:10px;
+}
+
+.TrendingProduct-description
+{
+padding:10px;
+width:95%;
+margin: 30px auto;
+border: 1px solid #EEE;
+line-height: 14px;
+font-variant: common-ligatures;
+text-align: justify;
+}
+
+.TrendingProduct-button-panal
+{
+width:100%;
+margin-top: 10px;
+position:absolute;
+bottom: 10px;
+left:0px;
+z-index: 100;
+}
+
+.TrendingProduct-button-panal a{
+display: block;
+width:100px;
+margin:0 auto;
+background: #F00;
+padding:10px;
+border:1px solid #ca181e;
+cursor: pointer;
+text-transform: uppercase;
+margin-right: 10px;
+text-align: center;
+}
+
+.TrendingProduct-button-panal a:hover{
+transform: scale(1.1); 
+}
+
+.TrendingProduct-background{
+background-color: #e11b22;
+width: inherit;
+height: inherit;
+position: absolute;
+top:0px;
+left:0px;
+opacity: .8;
+z-index: -1;
+}
+
+.TrendingProduct-data{
+width: inherit;
+height: inherit;
+position: absolute;
+top:0px;
+left:0px;
+z-index: 1
+}
+.TrendingProduct-Name{
+padding:10px;
+font-size: 24px;
+font-weight: bold;
+font-family: ATSFontReg, Arial, Helvetica, sans-serif;
+text-align: left;
+color: #FFF;
+}
+
+ /* 
+@media only screen and (min-width: 426px) and (max-width: 768px) 
+{ 
+      
+    .TrendingProduct-card-parallelogram{
+        transform: rotate(-12.5deg);
+    }
+
+    .TrendingProduct-parallelogram {
+        width: 100%;
+        height: 90px;
+        transform: skew(65deg);
+        background: #e11b22;
+    }
+
+} 
+@media only screen and (min-width: 426px)
+{   
+    .TrendingProduct-card-parallelogram{
+        transform: rotate(-12.5deg);
+    }
+
+    .TrendingProduct-parallelogram {
+        width: 100%;
+        height: 90px;
+        transform: skew(65deg);
+        background: #e11b22;
+    }
+
+}
+*/
