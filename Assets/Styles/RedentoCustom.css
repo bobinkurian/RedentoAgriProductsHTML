@@ -27,6 +27,22 @@
 .NoMargin{
   margin:0px !important;
 }
+.NoMarginLeft{
+  margin-left:0px !important;
+}
+.NoPaddingLeft{
+  padding-left:0px !important;
+}
+.MarginTopBottom5px{
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.MarginBottom10Px{
+  margin-bottom: 10px !important;
+}
+.PaddingRight1px{
+  padding-right: 1px !important;
+}
 .FooterFontSize{
   font-size: 12px !important;
 }
@@ -200,6 +216,22 @@
 .aboutUsSubSectionMarginTop
 {
   margin-top: 15px !important;
+}
+.aboutUsLeadersWrapper{
+  width: 100%;
+  background-color: #333;
+  box-shadow: 0px 0px 4px #000;
+  padding:30px
+
+}
+.aboutUsLeadersWrapper td{
+  padding:5px;
+  color:#fff !important;
+}
+.aboutUsLeadersDetails{
+  background-color: #333;
+  box-shadow: 0px 0px 4px #000;
+  padding:21px
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) 
