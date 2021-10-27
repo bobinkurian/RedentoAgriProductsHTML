@@ -303,6 +303,36 @@
 .marginLeft15px{
   margin-left: 15px !important;
 }
+.ourWareHouseCaption{
+  width:400px;
+  background-color: #e11b22;
+  color: #FFF;
+  padding:15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin:0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.ourWareHouseLocationName
+{
+  font-family: ATSFontReg, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  letter-spacing: .01em;
+  line-height: 1.2em;
+  text-transform: capitalize;
+  color: #231f20;
+}
+.ourWareHouseMarginTop
+{
+  margin-top: 30px !important;
+}
+.ourWareHouseItemWrapper{
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 426px) and (max-width: 768px) 
 {     
