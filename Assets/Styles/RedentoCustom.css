@@ -40,6 +40,12 @@
 .MarginBottom10Px{
   margin-bottom: 10px !important;
 }
+.MarginTop50Px{
+  margin-top: 50px !important;
+}
+.marginLeft15px{
+  margin-left: 15px !important;
+}
 .PaddingRight1px{
   padding-right: 1px !important;
 }
@@ -300,9 +306,6 @@
 .userLoginButon:hover{
   background-color: #cc2d37;
 }
-.marginLeft15px{
-  margin-left: 15px !important;
-}
 .ourWareHouseCaption{
   width:400px;
   background-color: #e11b22;
@@ -333,7 +336,55 @@
 .ourWareHouseItemWrapper{
   margin: 0 auto;
 }
-
+.productItem-onlineshop-price
+{
+  padding: 10px;
+  background: #e11b22;
+  position:absolute;
+  bottom: 10px;
+  right:10px;
+}
+.productItem-onlineshop-block{
+  width:100%;
+  height:60px;
+  z-index:100;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-size: 14px !important;
+}
+.productItem-onlineshop-Name{
+  padding:10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: ATSFontReg, Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #6a6563;
+}  
+.product-onlineshop-card {
+  width: 98%;
+  margin:0 auto;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: ease .25s; 
+  -webkit-transition: ease .25s;
+  padding: 1%;
+  border: 1px solid #6a6563;
+}
+.product-onlineshop-card:hover {
+  transform: scale(1.04); 
+  -wekbit-transform: scale(1.04); 
+  -moz-transform: scale(1.04); 
+}
+.product-onlineshop-card a:hover{
+  text-decoration: none;
+}
+.product-onlineshop-MarginTop
+{
+  margin-top: 50px !important;
+}
+.productItem-onlineshop-marginTop{
+  margin-top: 20px !important;
+}
 @media only screen and (min-width: 426px) and (max-width: 768px) 
 {     
   .banner-1 .banner-1-title     
